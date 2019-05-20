@@ -1,9 +1,10 @@
-.product-list-g1 {
+.product-list {
     display: flex;
     flex-flow: row wrap;
     flex: 1 100%;
     color: #fff;
     border-radius: 5px;
+    margin-bottom: 50px;
 
     .item {
         color: $gray;
@@ -36,7 +37,9 @@
             color: $red-light;
             }
     }
+}
 
+.product-list-g1 {
     .item-8 {
       background-image:  url(wild-nature-relaxing-background.jpg);
     }
@@ -68,4 +71,20 @@
     .item-1 {
       background-image:  url(wild-nature-relaxing-background.jpg);
     }
+    
+}
+
+.product-list-g2 {
+    .item {
+        flex: 1 50%;
+    }
+    
+    .item-2 {
+      background-image:  url(cabin.jpg);
+    }
+
+    .item-1 {
+      background-image:  url(cabin.jpg);
+    }
+    
 }

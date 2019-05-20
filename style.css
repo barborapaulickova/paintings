@@ -101,40 +101,42 @@ h2 {
   font-weight: 400;
 }
 
-.product-list-g1 {
+.product-list {
   display: flex;
   flex-flow: row wrap;
   flex: 1 100%;
   color: #fff;
   border-radius: 5px;
+  margin-bottom: 50px;
 }
-.product-list-g1 .item {
+.product-list .item {
   color: #8E8D8A;
   display: flex;
   flex-wrap: wrap;
   flex: 1 25%;
   cursor: pointer;
 }
-.product-list-g1 .item span {
+.product-list .item span {
   flex: 1 100%;
   margin-left: 10px;
 }
-.product-list-g1 .item span:first-child {
+.product-list .item span:first-child {
   margin: 10px;
   height: 250px;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.product-list-g1 .item .item-name {
+.product-list .item .item-name {
   font-size: 30px;
   font-weight: 300;
   text-transform: uppercase;
 }
-.product-list-g1 .item .item-price {
+.product-list .item .item-price {
   font-weight: 800;
   padding: 10px 0;
   color: #E98074;
 }
+
 .product-list-g1 .item-8 {
   background-image: url(wild-nature-relaxing-background.jpg);
 }
@@ -158,6 +160,16 @@ h2 {
 }
 .product-list-g1 .item-1 {
   background-image: url(wild-nature-relaxing-background.jpg);
+}
+
+.product-list-g2 .item {
+  flex: 1 50%;
+}
+.product-list-g2 .item-2 {
+  background-image: url(cabin.jpg);
+}
+.product-list-g2 .item-1 {
+  background-image: url(cabin.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */
