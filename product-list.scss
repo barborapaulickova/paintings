@@ -1,0 +1,63 @@
+.product-list {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 100%;
+    color: #fff;
+    border-radius: 5px;
+
+    .item {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      align-content: flex-end;
+      margin: 10px;
+      flex: 1 20%;
+      height: 250px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      justify-content: center;
+      flex-flow: wrap-reverse;
+      cursor: pointer;
+
+      .item-name {
+        padding-top: 80px;
+        transition: transform 0.35s;
+        transform: translate3d(0, -20px, 0);
+        font-size: 30px;
+        font-weight: 300;
+        text-transform: uppercase;
+      }
+    }
+
+    .item-8 {
+      background-image:  url(wild-nature-relaxing-background.jpg);
+    }
+
+    .item-7 {
+      background-image:  url(wild-nature-relaxing-background.jpg);
+    }
+
+    .item-6 {
+      background-image:  url(wild-nature-relaxing-background.jpg);
+    }
+
+    .item-5 {
+      background-image: url(wild-nature-relaxing-background.jpg);
+    }
+
+    .item-4 {
+      background-image:  url(wild-nature-relaxing-background.jpg);
+    }
+
+    .item-3 {
+      background-image:  url(wild-nature-relaxing-background.jpg);
+    }
+
+    .item-2 {
+      background-image:  url(wild-nature-relaxing-background.jpg);
+    }
+
+    .item-1 {
+      background-image:  url(wild-nature-relaxing-background.jpg);
+    }
+}
