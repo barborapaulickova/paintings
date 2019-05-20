@@ -1,3 +1,12 @@
+h2 {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  margin: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #E98074;
+  margin: 10px;
+}
+
 .header {
   background-color: #EAE7DC;
   color: #8E8D8A;
@@ -76,12 +85,11 @@
 .main-description .list-description {
   flex-direction: column;
   font-weight: 800;
-  color: #40311c;
-  margin-bottom: 80px;
+  color: #8E8D8A;
+  margin-bottom: 140px;
 }
 .main-description .list-description h2 {
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  font-size: 40px;
+  color: #8E8D8A;
   margin: 0;
 }
 .main-description .list-description p {
@@ -93,57 +101,62 @@
   font-weight: 400;
 }
 
-.product-list {
+.product-list-g1 {
   display: flex;
   flex-flow: row wrap;
   flex: 1 100%;
   color: #fff;
   border-radius: 5px;
 }
-.product-list .item {
+.product-list-g1 .item {
+  color: #8E8D8A;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
-  align-content: flex-end;
+  flex: 1 25%;
+  cursor: pointer;
+}
+.product-list-g1 .item span {
+  flex: 1 100%;
+  margin-left: 10px;
+}
+.product-list-g1 .item span:first-child {
   margin: 10px;
-  flex: 1 20%;
   height: 250px;
   background-size: cover;
   background-repeat: no-repeat;
-  justify-content: center;
-  flex-flow: wrap-reverse;
-  cursor: pointer;
 }
-.product-list .item .item-name {
-  padding-top: 80px;
-  transition: transform 0.35s;
-  transform: translate3d(0, -20px, 0);
+.product-list-g1 .item .item-name {
   font-size: 30px;
   font-weight: 300;
   text-transform: uppercase;
 }
-.product-list .item-8 {
+.product-list-g1 .item .item-price {
+  font-weight: 800;
+  padding: 10px 0;
+  color: #E98074;
+}
+.product-list-g1 .item-8 {
   background-image: url(wild-nature-relaxing-background.jpg);
 }
-.product-list .item-7 {
+.product-list-g1 .item-7 {
   background-image: url(wild-nature-relaxing-background.jpg);
 }
-.product-list .item-6 {
+.product-list-g1 .item-6 {
   background-image: url(wild-nature-relaxing-background.jpg);
 }
-.product-list .item-5 {
+.product-list-g1 .item-5 {
   background-image: url(wild-nature-relaxing-background.jpg);
 }
-.product-list .item-4 {
+.product-list-g1 .item-4 {
   background-image: url(wild-nature-relaxing-background.jpg);
 }
-.product-list .item-3 {
+.product-list-g1 .item-3 {
   background-image: url(wild-nature-relaxing-background.jpg);
 }
-.product-list .item-2 {
+.product-list-g1 .item-2 {
   background-image: url(wild-nature-relaxing-background.jpg);
 }
-.product-list .item-1 {
+.product-list-g1 .item-1 {
   background-image: url(wild-nature-relaxing-background.jpg);
 }
 
