@@ -76,6 +76,36 @@
 
 .product-list-g2 {
     .item {
+        flex: 1 100%;
+        
+        span:first-child {
+            flex: 1 49%;
+            height: 450px;
+        } 
+        
+        .desc-g2 {
+            display: flex;
+            flex-direction: column;
+            flex: 2 49%;
+        }
+    }
+    
+    .reverse {
+            flex-direction: row-reverse;
+        }   
+    
+    .item-2 {
+      background-image:  url(cabin.jpg);
+    }
+
+    .item-1 {
+      background-image:  url(cabin.jpg);
+    }
+    
+}
+
+.product-list-g3 {
+    .item {
         flex: 1 50%;
     }
     
@@ -83,7 +113,7 @@
       background-image:  url(cabin.jpg);
     }
 
-    .item-1 {
+    .item-1 {        
       background-image:  url(cabin.jpg);
     }
     
